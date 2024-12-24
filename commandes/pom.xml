@@ -52,6 +52,13 @@
             <artifactId>wss4j</artifactId>
             <version>1.6.19</version>
         </dependency> -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-circuitbreaker-resilience4j -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
         <dependency>
             <groupId>wsdl4j</groupId>
             <artifactId>wsdl4j</artifactId>
