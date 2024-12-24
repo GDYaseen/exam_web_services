@@ -1,0 +1,14 @@
+type Commande {
+    id: String
+    produitId: String
+    quantity: Int
+}
+
+type Query {
+    getCommande(id: String!): Commande
+    getAllCommandes: [Commande]
+}
+
+type Mutation {
+    createCommande(produitId: String!, quantity: Int!): Commande
+}

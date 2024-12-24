@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: commandes_service
+  server:
+    port: 7998
+  datasource:
+    url: jdbc:mysql://localhost:3306/db-commandes?createDatabaseIfNotExist=TRUE
+    username: root
+    password: 
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
